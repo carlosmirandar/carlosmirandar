@@ -1,16 +1,22 @@
-## Hi there 👋
+# carlosmirandar
 
-<!--
-**carlosmirandar/carlosmirandar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Research, data and knowledge systems.
 
-Here are some ideas to get you started:
+I build and document selected public work on:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- digital inequality and digital inclusion
+- sustainability and public value
+- public policy, monitoring and evaluation
+- reproducible research and open methods
+- digital accessibility and maintainability
+- responsible AI and AI-assisted knowledge systems
+
+I value work that is **useful, inspectable and maintainable**.
+
+---
+
+> **विमृश्यैतदशेषेण यथेच्छसि तथा कुरु**
+>
+> **Reflect on it fully; then act as you choose.**
+>
+> — *BhG 18.63*
