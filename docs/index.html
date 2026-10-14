@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="theme-color" content="#111414">
-  <meta name="description" content="Sitio académico de Carlos Miranda Rodríguez. Investigación sobre desigualdad digital, inclusión, sostenibilidad, políticas públicas y sistemas de conocimiento.">
+  <meta name="description" content="Portafolio de proyectos públicos, herramientas experimentales e ideas generales sobre datos, accesibilidad y documentación.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Carlos Miranda Rodríguez — Investigación y conocimiento">
-  <meta property="og:description" content="Desigualdad digital, investigación abierta, sostenibilidad y sistemas de conocimiento.">
+  <meta property="og:title" content="Taller abierto — Proyectos y herramientas">
+  <meta property="og:description" content="Proyectos públicos, datos, herramientas y documentación.">
   <meta property="og:url" content="https://carlosmirandar.github.io/carlosmirandar/">
   <link rel="canonical" href="https://carlosmirandar.github.io/carlosmirandar/">
-  <title>Carlos Miranda Rodríguez | Investigación y conocimiento</title>
+  <title>Taller abierto | Proyectos, datos y herramientas</title>
   <style>
     :root { --bg:#111414; --bg2:#191d1c; --panel:#1d2221; --text:#f1f0ea; --muted:#b0b9b4; --line:#343d39; --accent:#dca67e; --accent2:#efd2b6; --max:1120px; }
     * { box-sizing:border-box; }
@@ -84,21 +85,18 @@
     @media (max-width:620px) { .container { width:min(calc(100% - 34px),var(--max)); } .header-inner { align-items:flex-start; flex-direction:column; justify-content:center; gap:4px; padding:13px 0; min-height:85px; } .nav { column-gap:18px; font-size:.77rem; } .hero { min-height:565px; padding:82px 0; } .hero h1 { font-size:clamp(2.8rem,12vw,4.25rem); } .section { padding:75px 0; } .grid,.notes { grid-template-columns:1fr; } .card { min-height:250px; } .section { scroll-margin-top:100px; } }
     @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .button,.card { transition:none; } .button:hover,.card:hover { transform:none; } }
   </style>
-  <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Person","name":"Carlos Miranda Rodríguez","url":"https://carlosmirandar.github.io/carlosmirandar/","sameAs":["https://orcid.org/0000-0002-4875-6187","https://github.com/carlosmirandar"],"knowsAbout":["Digital inequality","Digital inclusion","Development studies","Sustainability","Research methods","Knowledge systems"]}
-  </script>
-</head>
+  </head>
 <body>
   <a class="skip" href="#contenido">Ir al contenido</a>
   <header class="header">
     <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Volver al inicio">CM<span>·</span>R</a>
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">TALLER<span>·</span>ABIERTO</a>
       <nav class="nav" aria-label="Navegación principal">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#investigacion">Investigación</a>
+        <a href="#enfoque">Enfoque</a>
+        <a href="#areas">Áreas</a>
         <a href="#proyectos">Proyectos</a>
-        <a href="#notas">Notas</a>
-        <a href="#contacto">Perfiles</a>
+        <a href="#ideas">Ideas</a>
+        <a href="#codigo">Código</a>
       </nav>
     </div>
   </header>
@@ -106,136 +104,136 @@
     <section class="hero" id="inicio" aria-labelledby="titulo-principal">
       <div class="orbit" aria-hidden="true"></div>
       <div class="container">
-        <div class="eyebrow">Investigación · Datos · Conocimiento</div>
-        <h1 id="titulo-principal">Carlos Miranda<br><em>Rodríguez.</em></h1>
-        <p class="lead">Doctorando en Estudios sobre Desarrollo. Investigo las desigualdades digitales y cómo convertir la evidencia, los métodos abiertos y las tecnologías en capacidades y beneficios reales para las personas y los territorios.</p>
+        <div class="eyebrow">Proyectos · Métodos · Herramientas abiertas</div>
+        <h1 id="titulo-principal">Explorar.<br><em>Construir.</em><br>Compartir.</h1>
+        <p class="lead">Un espacio para mostrar proyectos públicos, experimentos técnicos e ideas sobre datos, inclusión digital, documentación y sistemas de conocimiento. Importan más las herramientas y lo que permiten hacer que las credenciales de quien las desarrolla.</p>
         <div class="actions">
-          <a class="button primary" href="#investigacion">Explorar investigación <span aria-hidden="true">↗</span></a>
-          <a class="button secondary" href="https://orcid.org/0000-0002-4875-6187" target="_blank" rel="noopener noreferrer">Ver ORCID <span aria-hidden="true">↗</span></a>
+          <a class="button primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#areas">Explorar áreas <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
-    <section class="section" id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+    <section class="section" id="enfoque" aria-labelledby="enfoque-titulo">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow">01 / Perspectiva</div>
-          <h2 id="sobre-mi-titulo">Entre desarrollo, tecnología y responsabilidad institucional.</h2>
+          <div class="eyebrow">01 / Enfoque</div>
+          <h2 id="enfoque-titulo">Hacer cosas que puedan comprenderse, utilizarse y mantenerse.</h2>
         </div>
         <div class="two-col">
           <div class="body-copy">
-            <p>Soy investigador doctoral en el programa de <strong>Estudios sobre Desarrollo de la Universidad del País Vasco (UPV/EHU)</strong>, con interés en las relaciones entre desigualdad, tecnología, instituciones y sostenibilidad.</p>
-            <p>Mi trabajo combina revisión sistemática de literatura, análisis cualitativo y diseño de herramientas orientadas a <strong>documentar, evaluar y mejorar</strong> procesos de interés público.</p>
-            <p>Me interesa especialmente el conocimiento que no se queda en un informe: aquel que puede explicarse, examinarse, mantenerse y utilizarse.</p>
+            <p>Este sitio reúne <strong>ideas, prototipos y recursos compartidos públicamente</strong> relacionados con tecnología, análisis de información y soluciones prácticas.</p>
+            <p>El interés está en crear herramientas comprensibles, documentar las decisiones importantes y favorecer que otras personas puedan examinar, adaptar o mejorar lo que se publica.</p>
+            <p>Los proyectos experimentales se presentan como tales. Una demostración no implica un producto terminado, un resultado validado ni una recomendación de uso profesional.</p>
           </div>
-          <aside class="aside" aria-label="Áreas de interés">
-            <strong>Áreas principales</strong>
-            <p>Desigualdad e inclusión digital; desarrollo sostenible; políticas públicas; investigación reproducible; accesibilidad; sistemas de conocimiento.</p>
-            <strong>Enfoque</strong>
-            <p>Evidencia trazable, utilidad social, responsabilidad institucional y tecnologías mantenibles.</p>
+          <aside class="aside" aria-label="Principios">
+            <strong>Principios</strong>
+            <p>Simplicidad, accesibilidad, trazabilidad de los métodos, documentación y mantenimiento.</p>
+            <strong>Alcance del sitio</strong>
+            <p>Solo contenido destinado a divulgación pública. Sin currículum, instituciones, credenciales personales ni información privada de terceros.</p>
           </aside>
         </div>
       </div>
     </section>
-    <section class="section" id="investigacion" aria-labelledby="investigacion-titulo">
+    <section class="section" id="areas" aria-labelledby="areas-titulo">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow">02 / Investigación</div>
-          <h2 id="investigacion-titulo">Comprender las brechas. Examinar los resultados.</h2>
-          <p class="intro">La inclusión digital no se agota en disponer de conexión o dispositivos: también importa qué habilidades, usos y beneficios se vuelven posibles, para quiénes y bajo qué condiciones.</p>
+          <div class="eyebrow">02 / Áreas de trabajo</div>
+          <h2 id="areas-titulo">Problemas interesantes. Soluciones examinables.</h2>
+          <p class="intro">Temas que conectan el trabajo con datos, la tecnología y su utilidad cotidiana. Se presentan como áreas de exploración, no como credenciales o resultados de investigación.</p>
         </div>
         <div class="grid">
           <article class="card">
-            <div class="card-id">01 — TESIS DOCTORAL</div>
-            <h3>Desigualdad digital en Chile</h3>
-            <p>Estudio de las barreras de acceso, uso y apropiación significativa de tecnologías, atendiendo a sus consecuencias y condiciones sociales e institucionales.</p>
-            <span class="card-link">Investigación en curso</span>
+            <div class="card-id">01 — DATOS</div>
+            <h3>Organización y análisis de información</h3>
+            <p>Ideas para transformar archivos, revisar su calidad y documentar procesos de manera reproducible.</p>
+            <span class="card-link">Métodos y herramientas</span>
           </article>
           <article class="card">
-            <div class="card-id">02 — EDUCACIÓN SUPERIOR</div>
-            <h3>Accesibilidad y responsabilidad institucional</h3>
-            <p>Exploración de la continuidad de las barreras digitales y de una matriz de autoevaluación institucional (MBRA-ES).</p>
-            <span class="card-link">Trabajo académico en desarrollo</span>
+            <div class="card-id">02 — ACCESIBILIDAD</div>
+            <h3>Tecnología que pueda usarse</h3>
+            <p>Preguntas sobre diseño, inclusión digital y mantenimiento de soluciones para distintos contextos de uso.</p>
+            <span class="card-link">Diseño y mejora continua</span>
           </article>
           <article class="card">
-            <div class="card-id">03 — MÉTODOS</div>
-            <h3>Evidencia abierta y trazabilidad</h3>
-            <p>Interés en revisiones sistemáticas, metasíntesis cualitativa, documentación de decisiones y prácticas de investigación examinables.</p>
-            <span class="card-link">Línea metodológica</span>
+            <div class="card-id">03 — CONOCIMIENTO</div>
+            <h3>Documentar para compartir</h3>
+            <p>Prácticas de documentación, herramientas reutilizables y sistemas que conservan decisiones y aprendizajes.</p>
+            <span class="card-link">Conocimiento abierto</span>
           </article>
         </div>
         <blockquote class="quote">
-          Una solución digital solo es significativa si las personas pueden acceder, utilizarla y sostener los beneficios que promete.
+          Lo útil no debería depender de que una sola persona recuerde cómo funciona.
         </blockquote>
       </div>
     </section>
     <section class="section" id="proyectos" aria-labelledby="proyectos-titulo">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow">03 / Laboratorio</div>
-          <h2 id="proyectos-titulo">Proyectos y experimentos públicos.</h2>
-          <p class="intro">Un espacio para documentar herramientas, métodos y prototipos. Cada proyecto puede encontrarse en distintas etapas de desarrollo; su presencia aquí no implica que esté listo para producción.</p>
+          <div class="eyebrow">03 / Proyectos públicos</div>
+          <h2 id="proyectos-titulo">Crear, probar, revisar.</h2>
+          <p class="intro">Una selección pequeña y deliberada. Solo se enlazan trabajos disponibles públicamente; los demás espacios describen intereses generales o materiales que podrían publicarse en el futuro.</p>
         </div>
         <div class="grid">
           <article class="card">
-            <div class="card-id">01 — CÓDIGO ABIERTO</div>
+            <div class="card-id">01 — REPOSITORIO PÚBLICO</div>
             <h3>Hermeneus</h3>
-            <p>Proyecto experimental de traducción y trabajo con textos griegos mediante herramientas computacionales.</p>
-            <a class="card-link" href="https://github.com/carlosmirandar/traductor-griego-hermeneus" target="_blank" rel="noopener noreferrer">Explorar repositorio ↗</a>
+            <p>Experimento abierto para trabajar con textos griegos y herramientas computacionales. Consulta su repositorio para conocer su estado real.</p>
+            <a class="card-link" href="https://github.com/carlosmirandar/traductor-griego-hermeneus" target="_blank" rel="noopener noreferrer">Explorar código ↗</a>
           </article>
           <article class="card">
-            <div class="card-id">02 — INVESTIGACIÓN</div>
-            <h3>MBRA-ES</h3>
-            <p>Propuesta de autoevaluación institucional para examinar la persistencia de barreras digitales en educación superior.</p>
-            <span class="card-link">Documentación en preparación</span>
+            <div class="card-id">02 — ÁREA DE EXPLORACIÓN</div>
+            <h3>Utilidades para archivos y datos</h3>
+            <p>Ideas para crear herramientas pequeñas, transparentes y fáciles de verificar al trabajar con archivos y tablas.</p>
+            <span class="card-link">Sin publicación asociada</span>
           </article>
           <article class="card">
-            <div class="card-id">03 — DOCUMENTACIÓN</div>
-            <h3>Métodos y sistemas de conocimiento</h3>
-            <p>Exploraciones sobre herramientas mantenibles, automatización responsable y preservación de evidencia.</p>
-            <a class="card-link" href="https://github.com/carlosmirandar" target="_blank" rel="noopener noreferrer">Ver GitHub ↗</a>
+            <div class="card-id">03 — ÁREA DE EXPLORACIÓN</div>
+            <h3>Documentación de procesos</h3>
+            <p>Plantillas y prácticas orientadas a describir decisiones, límites y pasos necesarios para reutilizar un método.</p>
+            <span class="card-link">Sin publicación asociada</span>
           </article>
         </div>
       </div>
     </section>
-    <section class="section" id="notas" aria-labelledby="notas-titulo">
+    <section class="section" id="ideas" aria-labelledby="ideas-titulo">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow">04 / Cuaderno</div>
-          <h2 id="notas-titulo">Ideas para seguir trabajando.</h2>
-          <p class="intro">Preguntas que orientan mis lecturas, investigaciones y desarrollos. Este espacio podrá incorporar notas, materiales abiertos y publicaciones verificadas.</p>
+          <div class="eyebrow">04 / Ideas</div>
+          <h2 id="ideas-titulo">Preguntas que vale la pena explorar.</h2>
+          <p class="intro">Notas conceptuales sin resultados ni datos particulares; un punto de partida para futuros materiales públicos.</p>
         </div>
         <div class="notes">
           <article class="note">
-            <small>Reflexión</small>
-            <h3>Más allá del acceso digital</h3>
-            <p>¿Qué cambia al evaluar la inclusión digital por los beneficios efectivamente obtenidos, y no solo por la conectividad?</p>
+            <small>Accesibilidad</small>
+            <h3>Más allá del acceso</h3>
+            <p>¿Qué hace que una herramienta no solo esté disponible, sino que también sea fácil de utilizar y mantener?</p>
           </article>
           <article class="note">
-            <small>Pregunta de investigación</small>
-            <h3>La responsabilidad de mantener</h3>
-            <p>¿Qué ocurre cuando una solución que fue accesible deja de serlo por cambios técnicos, organizacionales o institucionales?</p>
+            <small>Documentación</small>
+            <h3>Explicar el proceso</h3>
+            <p>¿Qué información debe acompañar un proyecto para que alguien más pueda comprenderlo, verificarlo y continuarlo?</p>
           </article>
         </div>
       </div>
     </section>
-    <section class="section contact" id="contacto" aria-labelledby="contacto-titulo">
+    <section class="section contact" id="codigo" aria-labelledby="codigo-titulo">
       <div class="container">
-        <div class="eyebrow">05 / Conexiones</div>
-        <h2 id="contacto-titulo">Investigación abierta al diálogo.</h2>
-        <p class="intro">Puedes consultar mi identificador académico y mis repositorios públicos. Los trabajos en curso se presentan como tales, para distinguirlos de publicaciones formales.</p>
+        <div class="eyebrow">05 / Código</div>
+        <h2 id="codigo-titulo">Ver lo que está publicado.</h2>
+        <p class="intro">Los enlaces llevan únicamente a repositorios ya públicos. Para evaluar cualquier herramienta, revisa directamente su código, sus instrucciones y su estado de desarrollo.</p>
         <div class="links">
-          <a href="https://orcid.org/0000-0002-4875-6187" target="_blank" rel="noopener noreferrer">ORCID ↗</a>
-          <a href="https://github.com/carlosmirandar" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://github.com/carlosmirandar/traductor-griego-hermeneus" target="_blank" rel="noopener noreferrer">Hermeneus ↗</a>
+          <a href="https://github.com/carlosmirandar/carlosmirandar" target="_blank" rel="noopener noreferrer">Código de este sitio ↗</a>
         </div>
         <div aria-label="Etiquetas temáticas">
-          <span class="pill">Digital inequality</span><span class="pill">Development studies</span><span class="pill">Open methods</span><span class="pill">Sustainability</span><span class="pill">Knowledge systems</span>
+          <span class="pill">Datos</span><span class="pill">Accesibilidad</span><span class="pill">Software abierto</span><span class="pill">Documentación</span><span class="pill">Métodos</span>
         </div>
       </div>
     </section>
   </main>
   <footer>
     <div class="container footer-inner">
-      <span>© Carlos Miranda Rodríguez · Sitio académico personal</span>
+      <span>Proyectos e ideas · Contenido público</span>
       <span>HTML y CSS · Sin rastreadores · Diseño adaptable</span>
     </div>
   </footer>
